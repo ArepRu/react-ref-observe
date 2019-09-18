@@ -46,5 +46,5 @@ Observes element resizing. Uses [resize-observer-polyfill](https://github.com/qu
 
 Observes clicks outside an element
 
-- **refs** - Array of react reference to a DOM element
+- **refs** - Array of react references to DOM elements
 - **callback** - callback function, taking click or touch event argument
