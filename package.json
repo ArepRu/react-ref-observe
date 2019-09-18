@@ -1,6 +1,6 @@
 {
   "name": "react-ref-observe",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Observe resizing and click outside for react components",
   "main": "dist/observers.cjs.js",
   "module": "dist/observers.esm.js",
