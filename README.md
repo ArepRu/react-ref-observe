@@ -10,7 +10,7 @@ npm i react-ref-observe
 
 ```jsx
 import * as React from "react";
-import { observeResize, observeClickOutside } from "../src/observers.js";
+import { observeResize, observeClickOutside } from "react-ref-observe";
 
 export const Observers = () => {
   const firstRef = React.useRef();
