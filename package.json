@@ -1,0 +1,41 @@
+{
+  "name": "react-ref-observe",
+  "version": "1.0.0",
+  "description": "Observe resizing and click outside for react components",
+  "main": "dist/observers.cjs.js",
+  "module": "dist/observers.esm.js",
+  "files": [
+    "dist",
+    "src",
+    "pages"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && rollup -c",
+    "test": "yarn flow check",
+    "prepublish": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArepRu/react-ref-observe.git"
+  },
+  "author": "Alexey Repin <arepru@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArepRu/react-ref-observe/issues"
+  },
+  "homepage": "https://github.com/ArepRu/react-ref-observe#readme",
+  "dependencies": {
+    "react": "^16.9.0",
+    "resize-observer-polyfill": "^1.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-transform-runtime": "^7.6.0",
+    "@babel/preset-flow": "^7.0.0",
+    "flow-bin": "^0.107.0",
+    "rollup": "^1.21.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-size-snapshot": "^0.10.0"
+  }
+}
