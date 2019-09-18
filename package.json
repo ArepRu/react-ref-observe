@@ -18,6 +18,14 @@
     "type": "git",
     "url": "git+https://github.com/ArepRu/react-ref-observe.git"
   },
+  "keywords": [
+    "react",
+    "onclick",
+    "onclickout",
+    "onclickoutside",
+    "onresize",
+    "resize"
+  ],
   "author": "Alexey Repin <arepru@gmail.com>",
   "license": "MIT",
   "bugs": {
