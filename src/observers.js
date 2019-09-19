@@ -59,10 +59,8 @@ export const observeClickOutside = <T: string>(
         const clickedOutside = observableRefs.every(
           ref => ref.current == null || !ref.current.contains(target)
         );
-        const visible =
-          target.closest("[data-invisible-for-click-outside]") == null;
 
-        if (clickedOutside && visible) {
+        if (clickedOutside) {
           callback(event);
         }
       }
