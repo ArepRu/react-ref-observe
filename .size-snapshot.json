@@ -1,8 +1,8 @@
 {
   "dist/observers.esm.js": {
-    "bundled": 1712,
-    "minified": 884,
-    "gzipped": 459,
+    "bundled": 1615,
+    "minified": 815,
+    "gzipped": 417,
     "treeshaked": {
       "rollup": {
         "code": 47,
